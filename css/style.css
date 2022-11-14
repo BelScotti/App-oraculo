@@ -1,0 +1,328 @@
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Lato' , sans-serif;
+    background-color: rgb(216, 210, 241);
+}
+
+.container {
+    background: rgb(216, 210, 241) no-repeat top center;
+    background-size: cover;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.marco {
+    border: 1px solid #fff;
+    aspect-ratio: 9/16;
+    border-radius: 3px;
+    max-width: 375px;
+    width: 100vw;
+    box-shadow: 0 0 3px rgba(233, 157, 210, 0.35);
+}
+
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio header {
+    background-color: rgba(231, 141, 186, 0.35);
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.inicio header h1, .inicio header p {
+    color: #fff;
+}
+
+.inicio img {
+    width: 100px;
+}
+
+.inicio form {
+    padding: 20px;
+}
+
+.inicio label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inicio form input {
+    width: 100%;
+    border-radius: 8px;
+    padding: 6px;
+    color: #CA965C;
+    border: inherit;
+}
+
+input:focus {
+    outline: none;
+    }
+
+    
+
+    #dameSuerte {
+        width: 100%;
+        border-radius: 8px;
+        padding: 6px;
+        margin-top: 20px;
+        background-color: #FBECF4;
+        border-color: #fff;
+        color: #CA965C;
+        box-shadow: 0 3px 5px rgba(187, 93, 164, 0.3);
+    }
+
+    #dameSuerte:hover {
+            width: 100%;
+            border-radius: 8px;
+            padding: 6px;
+            margin-top: 20px;
+            background-color: #f5e4ed;
+            border-color: #fff;
+            color: #CA965C;
+            box-shadow: 0 3px 5px rgba(240, 178, 224, 0.3);
+    }
+
+
+
+    #tituloPartidas{
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #listaGuardadas{
+        font-size: 15px;
+        text-align: left;
+        color: #FBECF4;
+    }
+
+    .listaGuardadas{
+        display: none;
+    }
+
+    .btnTiradas{
+        width: 20%;
+        border-radius: 8px;
+        padding: 0px;
+        margin-top: 5px;
+        background-color: #FBECF4;
+        border-color: #fff;
+        color: #CA965C;
+        box-shadow: 0 3px 5px rgba(187, 93, 164, 0.3);
+    }
+    
+    .btnTiradas:hover {
+            width: 20%;
+            border-radius: 8px;
+            padding: 0px;
+            margin-top: 5px;
+            background-color: #f5e4ed;
+            border-color: #fff;
+            color: #CA965C;
+            box-shadow: 0 3px 5px rgba(240, 178, 224, 0.3);
+    }
+    
+
+    #loading {
+        align-items: center;
+        min-height: 100%;
+    }
+
+    #loading img {
+        background-color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px ; 
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 35px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.carousel-caption {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    padding: 0rem;
+    color:#CA965C;
+    text-align: center;
+    background-color: rgba(250, 215, 248, 0.9);
+}
+
+.card {
+    margin: 10px 0;
+}
+
+.carousel-item img{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px ;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.carousel-item h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #CA965C;
+}
+
+.carousel-item p{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #CA965C;
+}
+
+#juegoTitulo {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #FBECF4;
+}
+
+
+#verResultados {
+    width: 100%;
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 20px;
+    background-color: #FBECF4;
+    border-color: #fff;
+    color: #CA965C;
+    box-shadow: 0 3px 5px rgba(187, 93, 164, 0.3);
+}
+
+#verResultados:hover {
+        width: 100%;
+        border-radius: 8px;
+        padding: 6px;
+        margin-top: 20px;
+        background-color: #f5e4ed;
+        border-color: #fff;
+        color: #CA965C;
+        box-shadow: 0 3px 5px rgba(240, 178, 224, 0.3);
+}
+
+#VolverAjugar {
+    width: 60%;
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 20px;
+    background-color: #FBECF4;
+    border-color: #fff;
+    color: #CA965C;
+    box-shadow: 0 3px 5px rgba(187, 93, 164, 0.3);
+}
+
+#VolverAjugar:hover {
+        width: 60%;
+        border-radius: 8px;
+        padding: 6px;
+        margin-top: 20px;
+        background-color: #f5e4ed;
+        border-color: #fff;
+        color: #CA965C;
+        box-shadow: 0 3px 5px rgba(240, 178, 224, 0.3);
+}
+
+#cartasP1titulo{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    color: #FBECF4;
+}
+
+#cartasP2titulo{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    color: #FBECF4;
+}
+
+.card-img-top{
+    padding: 20px;
+    margin-top: 0px;
+    background-color:#f5dae8;
+
+}
+.card-body{
+    background-color:#f5dae8;
+}
+
+.card-title{
+    color: #CA965C;
+    font-size: 20px;
+    text-align: center;
+}
+.card-text{
+    color: #CA965C;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+#guardarPartida {
+    width: 80%;
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #FBECF4;
+    border-color: #fff;
+    color: #CA965C;
+    box-shadow: 0 3px 5px rgba(187, 93, 164, 0.3);
+}
+
+#guardarPartida:hover {
+    width: 80%;
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f5e4ed;
+    border-color: #fff;
+    color: #CA965C;
+    box-shadow: 0 3px 5px rgba(240, 178, 224, 0.3);
+}
+
+#volverAjugarDenuevo {
+    width: 60%;
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-color: #FBECF4;
+    border-color: #fff;
+    color: #CA965C;
+    box-shadow: 0 3px 5px rgba(187, 93, 164, 0.3);
+}
+
+#volverAjugarDenuevo:hover {
+    width: 60%;
+    border-radius: 8px;
+    padding: 6px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-color: #f5e4ed;
+    border-color: #fff;
+    color: #CA965C;
+    box-shadow: 0 3px 5px rgba(240, 178, 224, 0.3);
+}
